@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="40px"
+    android:layout_marginRight="40px"
+>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="444dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginRight="444dp"
+        android:fontFamily="@font/nanumsquarebold"
+        android:gravity="center"
+        android:textSize="56px"
+        android:text="기록하기"/>
+
+    <EditText
+        android:id="@+id/edit_filename"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="232px"
+        android:ems="10"
+        android:textSize="56px"
+        android:fontFamily="@font/nanumsquareregular"
+        android:hint="Edit filename"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="169dp"
+        android:textSize="56px"
+        android:fontFamily="@font/nanumsquareregular"
+        android:text="언어설정" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:textOff="한국어"
+        android:textOn="영어"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="237dp"
+        android:textSize="56px"
+        android:fontFamily="@font/nanumsquareregular"
+        android:text="인원설정" />
+
+
+    <ImageButton
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@null"
+        app:srcCompat="@drawable/plus" />
+
+
+    <ImageButton
+        android:id="@+id/minus"
+        android:layout_width="39dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/minus" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="328dp"
+        android:background="#9e9e9e" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="1005px"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginBottom="255dp"
+        android:fontFamily="@font/nanumsquareregular"
+        android:text="카테고리 추가"
+        android:textSize="56px" />
+
+    <ImageButton
+        android:id="@+id/plus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@null"
+        app:srcCompat="@drawable/plus" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="1147px"
+        android:layout_marginBottom="190dp"
+        android:fontFamily="@font/nanumsquareregular"
+        android:text="친구 / 그룹 불러오기"
+        android:textSize="56px" />
+
+    <ImageButton
+        android:id="@+id/plus3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@null"
+        app:srcCompat="@drawable/plus" />
+
+    <Button
+        android:id="@+id/makeroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1617px"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/makeroom"
+        android:fontFamily="@font/nanumsquarebold"
+        android:text="방 만들기"
+        android:textColor="#ffffff"
+        android:textSize="56px" />
+
+
+</RelativeLayout>

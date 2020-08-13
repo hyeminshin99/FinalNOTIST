@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp"
+    android:layout_margin="20dp"
+    tools:ignore="ExtraText"
+    android:background="#ffffff">
+
+    <ImageButton
+        android:layout_width="55.56px"
+        android:layout_height="55.56px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="82px"
+        android:layout_marginTop="51px"
+        android:background="@null"
+        android:src="@drawable/plus_rotate">
+
+    </ImageButton>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanum_square_regular"
+        android:text="검색"
+        android:textSize="51px"
+        android:layout_marginTop="51px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="420px"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="420px"
+        android:textColor="#000000">
+
+    </TextView>
+
+    //검색창
+    <EditText
+        android:id="@+id/editTextFilter_2"
+        android:layout_marginTop="240px"
+        android:layout_width="1000dp"
+        android:layout_height="136px"
+        android:background="@drawable/rounded_corner_rectangle"
+        android:drawableStart="@drawable/search_icon_last"
+        android:drawableLeft="@drawable/search_icon_last"
+        android:fontFamily="@font/nanum_square_regular"
+        android:hint="  검색어를 입력하세요"
+        android:includeFontPadding="true"
+        android:textColor="#222222"
+        android:textSize="40px" />
+
+    //화면전환버튼
+    <ImageButton
+        android:layout_marginTop="20dp"
+        android:id="@+id/textbutton_1"
+        android:layout_width="233px"
+        android:layout_height="79px"
+        android:layout_below="@+id/editTextFilter_2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="116px"
+        android:background="@null"
+        android:src="@drawable/filename_states">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_marginTop="20dp"
+        android:id="@+id/textbutton_2"
+        android:layout_width="233px"
+        android:layout_height="79px"
+        android:layout_below="@+id/editTextFilter_2"
+        android:layout_toRightOf="@+id/textbutton_1"
+        android:background="@null"
+        android:src="@drawable/cate_states"
+        android:layout_marginRight="116px">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_marginTop="20dp"
+        android:id="@+id/textbutton_3"
+        android:layout_width="233px"
+        android:layout_height="79px"
+        android:layout_below="@+id/editTextFilter_2"
+        android:layout_toRightOf="@+id/textbutton_2"
+        android:src="@drawable/hash_states"
+        android:background="@null">
+    </ImageButton>
+
+
+
+
+    //해시태그 내용
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textbutton_2"
+        android:id="@+id/table_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80.62px">
+
+        <TextView
+            android:layout_width="292px"
+            android:layout_height="104px"
+            android:layout_marginLeft="12px"
+            android:layout_marginRight="32px"
+            android:background="@drawable/hashtag_basic"
+            android:fontFamily="@font/nanum_square_regular"
+            android:gravity="center"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:text="#마케팅"
+            android:textColor="#222222"
+            android:textSize="40px" />
+        <TextView
+            android:layout_width="292px"
+            android:layout_height="104px"
+            android:layout_marginRight="32px"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:background="@drawable/hashtag_basic"
+            android:fontFamily="@font/nanum_square_regular"
+            android:gravity="center"
+            android:text="#이미지"
+            android:textColor="#222222"
+            android:textSize="40px" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/table_1"
+        android:id="@+id/table_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32px">
+
+        <TextView
+            android:layout_width="584px"
+            android:layout_height="104px"
+            android:layout_marginLeft="12px"
+            android:layout_marginRight="32px"
+            android:background="@drawable/hashtag_basic"
+            android:fontFamily="@font/nanum_square_regular"
+            android:gravity="center"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:text="#모바일서비스디자인개론"
+            android:textColor="#222222"
+            android:textSize="40px" />
+
+        <TextView
+            android:layout_width="292px"
+            android:layout_height="104px"
+            android:layout_marginRight="32px"
+            android:background="@drawable/hashtag_basic"
+            android:fontFamily="@font/nanum_square_regular"
+            android:gravity="center"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:text="#이산수학"
+            android:textColor="#222222"
+            android:textSize="40px" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/table_2"
+        android:id="@+id/table_3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32px">
+
+        <TextView
+            android:layout_width="292px"
+            android:layout_height="104px"
+            android:layout_marginLeft="12px"
+            android:layout_marginRight="32px"
+            android:background="@drawable/hashtag_basic"
+            android:fontFamily="@font/nanum_square_regular"
+            android:gravity="center"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:text="#영상학"
+            android:textColor="#222222"
+            android:textSize="40px" />
+
+        <TextView
+            android:layout_width="292px"
+            android:layout_height="104px"
+            android:layout_marginRight="32px"
+            android:background="@drawable/hashtag_basic"
+            android:fontFamily="@font/nanum_square_regular"
+            android:gravity="center"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:text="#UX/UI"
+            android:textColor="#222222"
+            android:textSize="40px" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/table_3"
+        android:id="@+id/table_4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32px">
+
+        <TextView
+            android:layout_width="584px"
+            android:layout_height="104px"
+            android:layout_marginLeft="12px"
+            android:layout_marginRight="32px"
+            android:background="@drawable/hashtag_basic"
+            android:fontFamily="@font/nanum_square_regular"
+            android:gravity="center"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:text="#서비스디자인공학개론"
+            android:textColor="#222222"
+            android:textSize="40px" />
+
+        <TextView
+            android:layout_width="292px"
+            android:layout_height="104px"
+            android:layout_marginRight="32px"
+            android:background="@drawable/hashtag_basic"
+            android:fontFamily="@font/nanum_square_regular"
+            android:gravity="center"
+            android:paddingTop="30px"
+            android:paddingBottom="30px"
+            android:text="#여행계획"
+            android:textColor="#222222"
+            android:textSize="40px" />
+
+    </TableRow>
+
+
+
+
+
+
+
+</RelativeLayout>
