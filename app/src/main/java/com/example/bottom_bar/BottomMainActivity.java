@@ -35,8 +35,10 @@ public class BottomMainActivity extends AppCompatActivity {
         //bottomnavigationview의 아이콘을 선택 했을때 원하는 프래그먼트가 띄워질 수 있도록
         // 리스너를 추가합니다.
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                onStop();
                 switch (menuItem.getItemId()){
                     //menu_bottom.xml에서 지정해줬던 아이디 값을 받아와서 각 아이디값마다 다른 이벤트를 발생시킵니다.
                     case R.id.home:
@@ -67,5 +69,11 @@ public class BottomMainActivity extends AppCompatActivity {
 
         });
     }
+
+//    @Override
+//    public void onStop() {
+//        super.onStop();
+//        requireActivity().finish();
+//    }//리로드가 잘 되는지는 모르겠다..
     }
 
