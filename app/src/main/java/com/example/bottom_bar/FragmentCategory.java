@@ -20,7 +20,7 @@ public class FragmentCategory extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         viewGroup = (ViewGroup) inflater.inflate(R.layout.fragment_category,container,false);
-
+//
         ImageButton categoryBtn = (ImageButton) viewGroup.findViewById(R.id.textbutton_1);
         categoryBtn.setOnClickListener(new View.OnClickListener() {
             @Override
