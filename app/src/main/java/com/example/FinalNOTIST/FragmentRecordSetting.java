@@ -1,9 +1,8 @@
-package com.example.bottom_bar;
+package com.example.FinalNOTIST;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,7 +17,7 @@ import androidx.fragment.app.Fragment;
 
 import java.io.File;
 
-public class FragmentSettingRecord extends Fragment {
+public class FragmentRecordSetting extends Fragment {
 
     FragmentRecord fragmentRecord;
     View view;
@@ -27,7 +26,7 @@ public class FragmentSettingRecord extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        view = (ViewGroup) inflater.inflate(R.layout.setting,container,false);
+        view = (ViewGroup) inflater.inflate(R.layout.fragment_recordsetting,container,false);
         edit_filename = (EditText) view.findViewById(R.id.edit_filename);
         Button button = (Button) view.findViewById(R.id.makeroom);
 

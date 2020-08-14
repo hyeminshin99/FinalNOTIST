@@ -1,4 +1,4 @@
-package com.example.bottom_bar;
+package com.example.FinalNOTIST;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +16,7 @@ public class BottomMainActivity extends AppCompatActivity {
     BottomNavigationView bottomNavigationView;
     FragmentHome fragmentHome;
     FragmentList fragmentList;
-    FragmentSettingRecord fragmentRecord;
+    FragmentRecordSetting fragmentRecord;
     FragmentGroup fragmentGroup;
     FragmentSettings fragmentSettings;
 
@@ -29,7 +29,7 @@ public class BottomMainActivity extends AppCompatActivity {
 
         fragmentHome = new FragmentHome();
         fragmentList = new FragmentList();
-        fragmentRecord = new FragmentSettingRecord();
+        fragmentRecord = new FragmentRecordSetting();
         fragmentGroup = new FragmentGroup();
         fragmentSettings = new FragmentSettings();
 

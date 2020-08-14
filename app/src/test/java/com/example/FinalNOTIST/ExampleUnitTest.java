@@ -1,4 +1,4 @@
-package com.example.bottom_bar;
+package com.example.FinalNOTIST;
 
 import org.junit.Test;
 
